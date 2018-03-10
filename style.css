@@ -11,3 +11,9 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  momoyo
 */
+
+
+#footer a { color: #222; }
+#footer a:hover { border-bottom: 1px solid #888; text-decoration: none; }
+#footer #credit img{vertical-align:middle;}
+#footer #credit span{display:none;}
