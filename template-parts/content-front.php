@@ -32,7 +32,7 @@
     				$category = get_the_category();
 
 					if ( $category[0] ) {
-				    echo '<div class="header-category"><a href="' . esc_url(get_category_link( $category[0]->term_id ) ) . '">' . sanitize_html_class($category[0]->cat_name) . '</a></div>';
+				    echo '<div class="header-category"><a href="' . esc_url(get_category_link( $category[0]->term_id ) ) . '">' . $category[0]->cat_name . '</a></div>';
 					}
 				?>
 	
