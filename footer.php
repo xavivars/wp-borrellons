@@ -16,7 +16,7 @@
          <div id="credit" class="site-info">
              <p>
                  Disseny i programació:<a href="http://xavi.ivars.me">
-                 <img src="/wp-content/themes/bandadebenissa/imatges/logo-xavi.png">Xavi Ivars</a>
+                 <img src="<?=get_stylesheet_directory_uri();?>/imatges/logo-xavi.png">Xavi Ivars</a>
              </p>
          </div><!-- .site-info -->
 
